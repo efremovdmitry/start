@@ -1,0 +1,16 @@
+{
+  "name": "start",
+  "version": "1.0.0",
+  "description": "Запустить `sass` командой `sass --watch source/scss/style.scss:dist/style.css`",
+  "main": "webpack.mix.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^5.3.2",
+    "laravel-mix": "^6.0.49"
+  }
+}
