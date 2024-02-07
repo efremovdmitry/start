@@ -11,6 +11,8 @@
 <body>
     <h1>Hello</h1>
     <img class="svg" src="../dist/img/logo.svg" alt="logo-svg">
+
+    <script type="module" src="../dist/main.js"></script>
 </body>
 
 </html>
