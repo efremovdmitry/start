@@ -10,6 +10,7 @@
 
 <body>
     <h1>Hello</h1>
+    <img class="svg" src="../dist/img/logo.svg" alt="logo-svg">
 </body>
 
 </html>
