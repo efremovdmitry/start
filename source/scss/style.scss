@@ -2,4 +2,12 @@ body {
     font-size: 16px;
 }
 
+// @import "common/normalize";
+@import "common/reset.css";
 @import "libs/libs";
+
+// SCSS header
+@import "components/header/header";
+
+// SCSS code for Page
+@import "components/pages/page-body.scss";
