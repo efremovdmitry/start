@@ -29,7 +29,7 @@
 // @import "./../../../node_modules/bootstrap/scss/helpers";
 
 // 7. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
-// @import "./../../../node_modules/bootstrap/scss/utilities/api";
+@import "./../../../node_modules/bootstrap/scss/utilities/api";
 
 // 8. Add additional custom code here
 
@@ -39,8 +39,10 @@
 @import "./../../../node_modules/bootstrap/scss/tables";
 
 
-
 // ########################################################################
 
 // Izmir is a mini CSS library
-@import "./../../../node_modules/@ciar4n/izmir/izmir.css";
+// @import "./../../../node_modules/@ciar4n/izmir/izmir.css";
+
+// swiper
+// @import "./../../../node_modules/swiper/swiper-bundle.min.css";

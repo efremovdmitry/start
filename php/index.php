@@ -11,16 +11,19 @@
 
 <body>
 
-    <header class="container">
-        <?php require 'partials/header.php' ?>
-    </header>
-    
+    <div class="header__wrapper">
+        <header class="container">
+            <?php require 'partials/header.php' ?>
+        </header>
+    </div>
+
     <main class="container">
         <?php require 'partials/page-body.php' ?>
     </main>
 
     <!-- ../dist/main.js -->
     <script type="module" src="../dist/main.js"></script>
+
 </body>
 
 </html>
