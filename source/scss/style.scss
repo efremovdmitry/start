@@ -1,9 +1,28 @@
-@import "common/normalize";
-// @import "common/reset.css";
+// @import "common/normalize";
+@import "common/reset.scss";
+
+
+
+
+$color: #444444;
+$bg: #eef1f7;
+$bg1 : #c4cfdd;
+$bg2 : #96b4e1;
+// $main : #143F69;
+$main : #023184;
+$radius: 10px;
+$radius_sm: 5px;
+$shadow: 0 0 25 rgba(0, 0, 0, .05);
+
 @import "layout/layout";
+
 @import "libs/libs"; //bootstrap,
 
-@import "components/header/header"; // SCSS header
+// SCSS header
+@import "components/header/header";
+
+
+@import "components/services/services";
 
 // SCSS code for Page
-@import "components/pages/page-body.scss";
+// @import "components/pages/page-body";
