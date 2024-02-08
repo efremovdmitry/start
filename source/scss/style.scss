@@ -1,3 +1,9 @@
-body {
-    font-size: 16px;
-}
+@import "common/normalize";
+// @import "common/reset.css";
+@import "layout/layout";
+@import "libs/libs"; //bootstrap,
+
+@import "components/header/header"; // SCSS header
+
+// SCSS code for Page
+@import "components/pages/page-body.scss";
